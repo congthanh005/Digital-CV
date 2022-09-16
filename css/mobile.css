@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px) {
+  .navbar > .container {
+    display: block;
+  }
+
+  /* thông tin cá nhân */
+  .bgthongtincanhan {
+    background-color: #e2e1e165;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    display: block;
+    padding-left: 170px;
+  }
+  .avatar-space {
+    display: none;
+  }
+  /* thông tin nghề nghiệp */
+
+  .col-md-sm {
+    height: auto !important;
+  }
+  .col-md-lg {
+    height: auto !important;
+  }
+
+  /* CHỨNG CHỈ */
+  /* thêm 1 lớp giả cho phần tử cuối và xóa bỏ phần tử lớp giả căn giữa 2 phần tử */
+  .border-color-1::before {
+    display: none;
+  }
+  .border-color-3 {
+    position: relative;
+  }
+  .border-color-3::before,
+  .border-color-3::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: -1px;
+    right: 20px;
+    left: 20px;
+    background-color: orange;
+  }
+  .duantrangwebxemtintuc {
+    margin-top: -100px;
+  }
+  /* Bài tập nâng cao */
+  .mt-sm-4 {
+    margin-top: 20px;
+  }
+  .mx-xs {
+    padding: 0 2rem;
+  }
+  .d-flex {
+    flex-direction: column;
+    padding: 20px;
+  }
+}

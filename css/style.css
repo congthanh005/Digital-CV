@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* nav */
+.avatar {
+  /*thiết lập avatar của bản thân*/
+  position: absolute; /*avatar là phần tử con*/
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgb(247, 244, 244);
+  /* căn chính giữa nav và tạo border 10px màu trắng */
+  box-shadow: 2px 2px 8px #c1c3c4;
+  /*thêm một chút bóng cho cảm giác avatar nổi*/
+
+  object-fit: contain;
+  /* ảnh tự động phù hợp với khung */
+}
+.icon {
+  width: 24px;
+  height: auto;
+  stroke: #1c7ed6;
+}
+.bgthongtincanhan {
+  background-color: #e2e1e165;
+}
+ul {
+  list-style: none;
+}
+
+/*xaahy dựng thông tin nghề nghiệp*/
+p {
+  font-size: 1.4rem;
+}
+.iconjob {
+  width: 40px;
+  height: auto;
+  stroke: #1c7ed6;
+}
+.iconcontent {
+  width: 50px;
+  height: auto;
+  border: 1px solid #0e6cca;
+  border-radius: 50%;
+}
+
+.linepoint {
+  margin: 0 50px;
+  font-size: 18px;
+}
+.point {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+.notpoint {
+  background: #c8d0d4;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.col-md-lg {
+  height: 800px;
+  width: 100%;
+  border: 1px solid rgb(189, 187, 187);
+  background-color: #fff;
+  margin-top: 20px;
+}
+.col-md-sm {
+  height: 350px;
+  width: 100%;
+  border: 1px solid rgb(189, 187, 187);
+  background-color: #fff;
+  margin-top: 20px;
+}
+/* border của các khối */
+
+/*Chứng chỉ - Giải thưởng  */
+/* tạo đường kẻ phía dưới các chứng chỉ, sử dụng lớp giả */
+span,
+td,
+tr {
+  font-size: 1.2rem;
+}
+.border-color-1 {
+  position: relative;
+}
+.border-color-1::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -1px;
+  right: 20px;
+  left: 20px;
+  background-color: orange;
+}
+
+.border-color-1::before {
+  content: "";
+  width: 2px;
+  height: 80%;
+  position: absolute;
+  top: 20px;
+  bottom: 20pxpx;
+  right: -1px;
+  background-color: orange;
+}
+
+.border-color-2 {
+  position: relative;
+}
+.border-color-2::before,
+.border-color-2::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -1px;
+  right: 20px;
+  left: 20px;
+  background-color: orange;
+}
+
+.img-chungchi {
+  width: 250px;
+  height: auto;
+}
+
+/* Dự án */
+.row {
+  margin: 0 10px;
+}
+
+hr {
+  color: #b6b8b9;
+}
+
+/* footer */
+
+/* bài tập nâng cao */
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bi-flag {
+  width: 30px;
+  height: auto;
+}
+.bi-person-fill {
+  width: 30px;
+  height: auto;
+}
+.bi-question-circle-fill {
+  width: 30px;
+  height: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.timeline-number {
+  background-color: #dab5d7;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #333;
+}
+.mx-sm {
+  margin: 0 1.5rem;
+}

@@ -1,0 +1,87 @@
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+  .avatar-space {
+    display: none;
+  }
+
+  /* thông tin nghề nghiệp */
+
+  /* Kinh nghiệm học vấn */
+
+  .iconjob {
+    width: 40px;
+    height: auto;
+    stroke: #1c7ed6;
+  }
+
+  .timeline {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .timeline-content p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .iconcontent {
+    width: 50px;
+    height: auto;
+    border: 1px solid #0e6cca;
+    border-radius: 50%;
+  }
+
+  .linepoint {
+    margin: 0 50px;
+    font-size: 18px;
+  }
+  .point {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .notpoint {
+    background: #c8d0d4;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .col-md-sm {
+    height: auto;
+  }
+  .col-md-lg {
+    height: auto;
+  }
+
+  /* dự án */
+  .duantrangwebxemtintuc {
+    margin-top: -100px;
+  }
+
+  h3,
+  h4,
+  h5,
+  p {
+    transform: scale(0.6);
+  }
+  .sothich {
+    position: relative;
+  }
+  .hoatdong {
+    position: relative;
+    top: -660px;
+  }
+
+  /* Chứng chỉ - Giải thưởng */
+
+  /* Thông tin nghề nghiệp */
+
+  /* bài tập nâng cao */
+  .d-flex {
+    flex-direction: column;
+  }
+  .d-flex > p {
+    transform: scale(1);
+  }
+}
